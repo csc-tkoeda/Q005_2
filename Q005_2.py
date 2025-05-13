@@ -24,6 +24,7 @@ for i in range(h):
         if shift(gridA, i, j) == gridB:
             match = True
             break
-
+    if match:
+        break
 
 print("Yes" if match else "No")
